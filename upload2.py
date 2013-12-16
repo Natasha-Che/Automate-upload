@@ -16,7 +16,7 @@ filename = sys.argv[4];
 f=open(filename, 'rb');
 data = f.read(); # slurp all the data                                                                                                                                
 server = xmlrpclib.ServerProxy("https://wiki.pasadena.openx.org/rpc/xmlrpc");
-token = server.confluence2.login("tq.wiki", "RUvDHPrn");
+token = server.confluence2.login("tq.wiki", "XXXX");
 
 page = server.confluence2.getPage(token, "TECH", "Browsers");
 #print "page is " + page;                                                                                                                                            

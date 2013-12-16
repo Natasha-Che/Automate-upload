@@ -1,4 +1,4 @@
-!/usr/bin/python                                                                                                                                                    
+#!/usr/bin/python                                                                                                                                                    
 #                                                                                                                                                                    
 # Reads from standard input, dumps it onto a Confluence page                                                                                                         
 # You'll need to modify the URL/username/password/spacekey/page title                                                                                                
@@ -87,7 +87,7 @@ print st
 #s = Server("http://10.0.13.127:8090/rpc/xmlrpc")                                                                                                                    
 s = Server("https://wiki.pasadena.openx.org/rpc/xmlrpc")
 
-token = s.confluence2.login("tq.wiki", "RUvDHPrn")
+token = s.confluence2.login("tq.wiki", "XXXX")
 page = s.confluence2.getPage(token, "TECH", "General Statistics for Various Aspects of the Traffic")
 #no use                                                                                                                                                              
 #new = "<ac:macro ac:name=\"chart\"><ac:parameter ac:name=\"title\">Cars Sold</ac:parameter><ac:parameter ac:name=\"type\">bar</ac:parameter><ac:rich-text-body><tab\
